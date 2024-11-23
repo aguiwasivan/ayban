@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1>Student Enrollment Form</h1>
+
+    <h3>Instructions</h3>
+        <li>Fill in the form fields.</li>
+        <li>Check your interest.</li>
+        <li>Click "Enroll Now" to submit.</li>
+
+
+    <form action="# ">
+        <!-- fullname -->
+        <label for="full-name">Full Name</label>
+        <input type="text" name="full-name" id="full-name" required>
+        <!-- email -->
+        <label for="email">Email Address</label>
+        <input type="email" name="email" id="email" required>
+        <!-- age -->
+        <label for="age">Age</label>
+        <input type="number" name="number" id="number" min="1" required>
+
+        <label>Sex</label>
+        <div class="radio">
+            <label><input type="radio" name="sex" value="Male" required>Male</label>
+            <label><input type="radio" name="sex" value="Male" required>Female</label>
+        </div>
+        
+
+        <label for="course">Course Options:</label>
+        <select id="course" name="course" required>
+            <option value="">----Select Course----</option>
+            <option value="BSIT">BSIT</option>
+            <option value="BSA">BSA</option>
+            <option value="BSAIS">BSAIS</option>
+            <option value="BSPA">BSPA</option>
+            <option value="BTVTEd">BTVTEd</option>
+            <option value="DHRS">DHRS</option>
+            <option value="BSE">BSE</option>
+            <option value="BSSW">BSSW</option>
+            <option value="ABELS">ABELS</option>
+        </select>
+            
+        <label class="interest">Interest:</label>
+        <div class="check-box">
+            <label><input type="checkbox" name="interest" value="Web Development">Web Development</label>
+            <label><input type="checkbox" name="interest" value="Data Science">Data Science</label>
+            <label><input type="checkbox" name="interest" value="Networking">Networking</label>
+            <label><input type="checkbox" name="interest" value="Graphic Designer">Graphic Design</label>
+        </div>
+        
+        <button type="submit">Enroll Now</button>
+
+    </form>
+
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email Address</th>
+                <th>Age</th>
+                <th>Sex</th>
+                <th>Course</th>
+                <th>Interest</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th>1</th>
+                <th>Ivan Raymond Aguiwas</th>
+                <th>aybanaguiwas@gmail.com</th>
+                <th>20</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Data Science</th>
+
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Vince Alien</th>
+                <th>binsalien@gmail.com</th>
+                <th>29</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Networking</th>
+            </tr>
+            <tr>
+                <th>3</th>
+                <th>Arnol Capares</th>
+                <th>arnolcapares@gmail.com</th>
+                <th>22</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Networking</th>
+            </tr>
+            <tr>
+                <th>4</th>
+                <th>Dwayt Kanya</th>
+                <th>dwanytkanya@gmail.com</th>
+                <th>19</th>
+                <th>Male</th>
+                <th>BSIT</th>
+                <th>Web Development</th>
+            </tr>
+            <tr>
+                <th>5</th>
+                <th>Ashley Enalid</th>
+                <th>ashleyenalid@gmail.com</th>
+                <th>25</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Data Science</th>
+            </tr>
+            <tr>
+                <th>6</th>
+                <th>Emare Kalyado</th>
+                <th>kalyadoemare@gmail.com</th>
+                <th>23</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Graphic Design</th>
+
+            </tr>
+            <tr>
+                <th>7</th>
+                <th>Riya Basket</th>
+                <th>riyabasket@gmail.com</th>
+                <th>20</th>
+                <th>Female</th>
+                <th>BSIT</th>
+                <th>Web Development</th>
+            </tr>
+        </tbody>
+
+
+    </table>
+    
+
+
+
+</body>
+</html>
